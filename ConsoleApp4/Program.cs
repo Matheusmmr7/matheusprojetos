@@ -20,6 +20,24 @@ namespace ConsoleApp4
             int Cod = Convert.ToInt32(Console.ReadLine());
 
             // Commit novo
+
+            if (Cod == 3)
+            {
+                int x;
+                Console.Clear();
+                Console.WriteLine("\n\tDigite um número inteiro:");
+                x = int.Parse(Console.ReadLine());
+                if (x % 2 == 0)
+                {
+                    Console.WriteLine("\nO número é par");
+                }
+                else
+                {
+                    Console.WriteLine("\nO número é impar");
+                }
+                Console.ReadKey();
+
+            }
         }
     }
 }
